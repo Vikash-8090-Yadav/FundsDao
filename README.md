@@ -3,9 +3,13 @@
 
 
 
-# Smart contract  - 0x2F7E3F529562539bD9626384d1519Be8372fEade
+# Smart contract  - 0x82B6dcEF462baBc2E76855b55046945B3c016D9b
 
-https://testnet.crossvaluescan.com/address/0x2F7E3F529562539bD9626384d1519Be8372fEade
+https://sepolia.explorer.zksync.io/address/0x82B6dcEF462baBc2E76855b55046945B3c016D9b
+
+
+![Screenshot from 2024-06-14 23-34-38](https://github.com/Vikash-8090-Yadav/FundsDao/assets/85225156/460509f5-f642-4127-9181-c49f701a6d0a)
+
 
 
 
@@ -102,7 +106,7 @@ The club smart contract has some restrictions, similar to real hedge funds:
     <tr>
       <td>Vercel</td>
       <td>
-         https://onedao-five.vercel.app/
+
       </td>
     </tr>
     </tr>
@@ -110,33 +114,5 @@ The club smart contract has some restrictions, similar to real hedge funds:
 </div>
 <br><br>
 
-## 🚀 Setting up the project locally
 
-To run the  One dao locally, follow these steps:
-1. Clone the repository:
- ```bash
-https://github.com/Vikash-8090-Yadav/Onedao.git
- ```
- 2. Navigate to the project directory:
-```bash
-cd  OneDao/Frontend
-```
-3. Node Re-versioning
-
-```bash
-export NODE_OPTIONS=--openssl-legacy-provider
-```
-
-4. Install the dependencies:
-```bash
-npm install --legacy-peer-deps
-```
-
-6. Access the dApp:
-```bash
-npm start
-```
-Open your web browser and visit the URL SHOWING IN UR TERMINAL to interact with the One Dao
-
-<br>
 
