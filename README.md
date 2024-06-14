@@ -12,7 +12,7 @@ https://sepolia.explorer.zksync.io/address/0x82B6dcEF462baBc2E76855b55046945B3c0
 
 
 
-
+## The code for the deployment of zksync can be found here: https://github.com/Vikash-8090-Yadav/FundsDao/blob/main/Frontend/src/SmartContract/hardhat.config.ts
 
 #  Motivation
 
