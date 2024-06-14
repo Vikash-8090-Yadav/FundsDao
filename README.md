@@ -8,8 +8,6 @@
 https://testnet.crossvaluescan.com/address/0x2F7E3F529562539bD9626384d1519Be8372fEade
 
 
-![Screenshot from 2024-06-07 03-06-30](https://github.com/Vikash-8090-Yadav/Onedao/assets/85225156/6fc1adb2-0d46-4b45-8072-adbb838a80e0)
-
 
 
 #  Motivation
