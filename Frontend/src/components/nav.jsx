@@ -9,15 +9,15 @@ import SideMenu from './Sidemenu';
 
 
 const networks = {
-  Kura: {
-    chainId: `0x${Number(5555).toString(16)}`,
-    chainName: "Kura",
+  zkSyncSepoliaTestnet: {
+    chainId: `0x${Number(300).toString(16)}`,
+    chainName: "zkSyncSepoliaTestnet",
     nativeCurrency: {
-      name: "Kura",
-      symbol: "Kura",
+      name: "zkSyncSepoliaTestnet",
+      symbol: "ETH",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-kura.cross.technology/"],
+    rpcUrls: ["https://sepolia.era.zksync.dev"],
   },
 };
 
@@ -45,7 +45,7 @@ function Nav() {
     
     const balanceWei= await web3.eth.getBalance(accountAddress)
             
-    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["Kura"]["nativeCurrency"]["name"];
+    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["zkSyncSepoliaTestnet"]["nativeCurrency"]["name"];
     console.log("result->"+finalbalance);
     setBalance(finalbalance);
     
@@ -65,7 +65,7 @@ function Nav() {
       await window.ethereum.request({
           method:"wallet_addEthereumChain",
           params:[{
-              ...networks["Kura"]
+              ...networks["zkSyncSepoliaTestnet"]
           }]
       })
   }

@@ -11,9 +11,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import { marketplaceAddress } from "../config";
 import {Web3} from 'web3';
 import $ from 'jquery'; 
-import ABI from "../SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
+import ABI from "../SmartContract/artifacts-zk/contracts/Investment.sol/InvestmentClub.json"
 const ethers = require("ethers")
-const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-kura.cross.technology/"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://sepolia.era.zksync.dev"));
 
 
 
