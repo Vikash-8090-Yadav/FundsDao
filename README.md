@@ -3,9 +3,9 @@
 
 
 
-# Smart contract  - 0x82B6dcEF462baBc2E76855b55046945B3c016D9b
+# Smart contract  - 0x2D9513354c5B60D4E1EA1C33febC95981dC90BaB
 
-https://sepolia.explorer.zksync.io/address/0x82B6dcEF462baBc2E76855b55046945B3c016D9b
+https://sepolia.explorer.zksync.io/address/0x2D9513354c5B60D4E1EA1C33febC95981dC90BaB
 
 
 ![Screenshot from 2024-06-14 23-34-38](https://github.com/Vikash-8090-Yadav/FundsDao/assets/85225156/460509f5-f642-4127-9181-c49f701a6d0a)
