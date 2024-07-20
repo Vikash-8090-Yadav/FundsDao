@@ -11,6 +11,13 @@ https://sepolia.explorer.zksync.io/address/0x82B6dcEF462baBc2E76855b55046945B3c0
 ![Screenshot from 2024-06-14 23-34-38](https://github.com/Vikash-8090-Yadav/FundsDao/assets/85225156/460509f5-f642-4127-9181-c49f701a6d0a)
 
 
+## Updates:
+
+Timer created in clubs 
+
+![Screenshot from 2024-07-20 13-36-28](https://github.com/user-attachments/assets/64f52b80-8e11-4777-810b-e73f34d7f6f3)
+
+
 
 ## The code for the deployment of zksync can be found here: https://github.com/Vikash-8090-Yadav/FundsDao/blob/main/Frontend/src/SmartContract/hardhat.config.ts
 
