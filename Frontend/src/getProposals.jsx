@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { marketplaceAddress } from './config';
 import {Web3} from 'web3';
 import $ from 'jquery'; 
-import ABI from "./SmartContract/artifacts-zk/contracts/Investment.sol/InvestmentClub.json"
+import ABI from "./SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://sepolia.era.zksync.dev/"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-kura.cross.technology/"));
 var contractPublic = null;
 
 async function getContract(userAddress) {
@@ -75,17 +75,17 @@ window.changeProposal=(proposalId)=> {
             changeProposal(valor.id);
           });
 
-          contractTd.innerHTML = "<a class='btn btn-success' onclick='changeProposal(" + valor.id + ")'>"+valor.id+"</a>";
+          contractTd.innerHTML = "<div class='btn btn-success' onclick='ChangeProposal(" + valor.clubId + ")'>"+valor.clubId+"</div>";
           tbodyTr.appendChild(clubLink);
           var contractTickerTd = document.createElement('td');
-          contractTickerTd.innerHTML = '<b>' + valor.description + '</b>';
+          contractTickerTd.innerHTML = '<b>' + valor.creator + '</b>';
           tbodyTr.appendChild(contractTickerTd);
           var balanceTd = document.createElement('td');
           // web3.utils.toWei(proposal_amount.toString(), 'ether');
-          balanceTd.innerHTML = '<b>' + web3.utils.fromWei(valor.amount.toString(),'ether')  + '</b>';
+          balanceTd.innerHTML = '<b>' + web3.utils.fromWei(valor.predictedPrice.toString(),'ether')  + '</b>';
           tbodyTr.appendChild(balanceTd);
           var balanceUSDTd2 = document.createElement('td');
-          balanceUSDTd2.innerHTML = '<b>' + valor.status+ '</b>';
+          balanceUSDTd2.innerHTML = '<b>' +new Date(Number(valor.proposalExpireAt ) * 1000).toLocaleString()+ '</b>';
           tbodyTr.appendChild(balanceUSDTd2);
          
           tbody.appendChild(tbodyTr);
